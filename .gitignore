@@ -1,0 +1,9 @@
+.vs/*
+ofxOpenPoseOut.VC.db
+ofxOpenPoseOut/models/face/pose_iter_116000.caffemodel
+ofxOpenPoseOut/models/hand/pose_iter_102000.caffemodel
+ofxOpenPoseOut/models/pose/coco/pose_iter_440000.caffemodel
+ofxOpenPoseOut/models/pose/mpi/pose_iter_160000.caffemodel
+ofxOpenPoseOut/3rdparty/windows/caffe/*
+ofxOpenPoseOut/3rdparty/windows/caffe3rdparty/*
+ofxOpenPoseOut/3rdparty/windows/opencv/*
