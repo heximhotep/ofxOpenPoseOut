@@ -7,3 +7,6 @@ ofxOpenPoseOut/models/pose/mpi/pose_iter_160000.caffemodel
 ofxOpenPoseOut/3rdparty/windows/caffe/*
 ofxOpenPoseOut/3rdparty/windows/caffe3rdparty/*
 ofxOpenPoseOut/3rdparty/windows/opencv/*
+ofxOpenPoseOut/bin/data/input/*.mov
+ofxOpenPoseOut/bin/data/input/*.mp4
+ofxOpenPoseOut/bin/data/output/*.json
