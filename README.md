@@ -1,11 +1,12 @@
 # ofxOpenPose
-#### openframeworks project set up to support the OpenPose C++ library
+#### Windows openFrameworks project set up to support the OpenPose C++ library
 ![alt text](https://raw.githubusercontent.com/heximhotep/ofxOpenPoseOut/master/docs/example_img_in.jpg "input frame")
 ![alt text](https://raw.githubusercontent.com/heximhotep/ofxOpenPoseOut/master/docs/example_img_out.jpg "output frame")
 
 ### Prerequisites
  openFrameworks
  CUDA 8.0 AND 9.0
+ CUDNN 5.0
  ofxOpenCV
  ofxJSON
  K-Lite Codec Pack
