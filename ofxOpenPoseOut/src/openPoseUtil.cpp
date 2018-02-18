@@ -78,12 +78,7 @@ PoseScenes imageExtraction(struct OpenPoseArguments args)
 		int numPoses = poseKeypoints.getSize(0);
 		int numJoints = poseKeypoints.getSize(1);
 		PoseScene scene;
-		if (numPoses > 10)
-		{
-			char saveName[100];
-			sprintf(saveName, "waco_%04d.jpg", i);
-			testImg.saveImage(saveName, ofImageQualityType::OF_IMAGE_QUALITY_BEST);
-		}
+
 		scene.sceneName = "__SCENE__" + ofToString(i);
 		for (int i = 0; i < numPoses; i++)
 		{
