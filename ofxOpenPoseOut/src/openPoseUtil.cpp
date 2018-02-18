@@ -81,7 +81,7 @@ PoseScenes imageExtraction(struct OpenPoseArguments args)
 		if (numPoses > 10)
 		{
 			char saveName[100];
-			sprintf(saveName, "waco_%d04.jpg", i);
+			sprintf(saveName, "waco_%04d.jpg", i);
 			testImg.saveImage(saveName, ofImageQualityType::OF_IMAGE_QUALITY_BEST);
 		}
 		scene.sceneName = "__SCENE__" + ofToString(i);
