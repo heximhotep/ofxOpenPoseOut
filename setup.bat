@@ -14,19 +14,19 @@ set INPUT_DIR=input
 set OUTPUT_DIR=output
 
 cd %GET_CAFFE_PATH%
-%GET_CAFFE_BAT%
+call %GET_CAFFE_BAT%
 cd ../../..
 
 cd %GET_CAFFETP_PATH%
-%GET_CAFFETP_BAT%
+call %GET_CAFFETP_BAT%
 cd ../../..
 
 cd %GET_OPENCV_PATH%
-%GET_OPENCV_BAT%
+call %GET_OPENCV_BAT%
 cd ../../..
 
 cd %GET_MODELS_PATH%
-%GET_MODELS_BAT%
+call %GET_MODELS_BAT%
 cd ../..
 
 cd %IO_PATH%
