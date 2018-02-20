@@ -4,13 +4,13 @@
 ![alt text](https://raw.githubusercontent.com/heximhotep/ofxOpenPoseOut/master/docs/example_img_out.jpg "output frame")
 
 ### Prerequisites
- openFrameworks
- CUDA 8.0 AND 9.0
- CUDNN 5.0
- ofxOpenCV
- ofxJSON
- K-Lite Codec Pack
- (recommended) ffmpeg
+-openFrameworks
+-CUDA 8.0 AND 9.0
+-CUDNN 5.1+
+-ofxOpenCV
+-ofxJSON
+-K-Lite Codec Pack
+-(recommended) ffmpeg (for video format conversion)
 
 ### Installation
 1. clone this repo into the 'apps' folder of your openFrameworks installation. 
